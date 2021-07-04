@@ -23,9 +23,9 @@ refer to the instructions below on how to train on your own machine.
 
 | Description      | Link |
 | ----------- | ----------- |
-| Process a video into a Nerfie dataset| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dionis/nerfies/notebooks/Nerfies_Capture_Processing.ipynb)|
-| Train a Nerfie| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dionis/nerfies/notebooks/Nerfies_Training.ipynb)|
-| Render a Nerfie video| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dionis/nerfies/notebooks/Nerfies_Render_Video.ipynb)|
+| Process a video into a Nerfie dataset| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dionis/nerfies/blob/main/notebooks/Nerfies_Capture_Processing.ipynb)|
+| Train a Nerfie| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dionis/nerfies/blob/main/notebooks/Nerfies_Training.ipynb)|
+| Render a Nerfie video| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dionis/nerfies/blob/main/notebooks/Nerfies_Render_Video.ipynb)|
  
 ## Setup
 The code can be run under any environment with Python 3.7 and above.
