@@ -45,7 +45,7 @@ def save_checkpoint(path, state, keep=100):
   """Save the state to a checkpoint."""
   state_to_save = jax.device_get(jax.tree_map(lambda x: x[0], state))
   step = state_to_save.optimizer.state.step
-  print("My modified change")
+  logging.info(" ==== My modified change === ")
   checkpoint_path = checkpoints.save_checkpoint(
       path, state_to_save, step, keep=keep, overwrite=True)
   logging.info('Saved checkpoint: step=%d, path=%s', int(step), checkpoint_path)
